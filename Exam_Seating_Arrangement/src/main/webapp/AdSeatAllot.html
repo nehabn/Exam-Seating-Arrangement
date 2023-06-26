@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<meta charset="ISO-8859-1">
+
+<title>Seat Allotment</title>
+<link rel="stylesheet" href="CSSAdSeatAllot.css">
+<div class="heading">
+
+    <head>
+        <center>
+            <h1>Seat Allotment</h1>
+        </center>
+    </head>
+</div>
+
+<!--   <style>
+	table{
+	 width:40%
+	}
+	td:nth-child(even){background-color: #FFB833}
+	td:nth-child(odd){background-color:#3395FF}
+	
+	th {
+	  background-color: grey;
+	  color: white;
+	}
+	td{
+	  text-align:center;
+	}
+	</style>
+    -->
+
+
+<div class="form">
+    <br>
+    <form action="AllotmentF.jsp" method="get">
+    
+    <div class="child">
+        <table style="margin: auto;" id=table>
+            <tr>
+                <td>Enter USNs per Semester</td>
+            </tr>
+            <tr>
+            <td><h3>Enter room number</h3></td>
+            <td><input type="text" name="room"></td>
+</tr>
+
+            <tr>
+                <td>
+                    <h3>3rd Semester</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter USN from:
+                </td>
+                <td>1DS20CS&nbsp;&nbsp;<input type="text" name="usn3"></td>
+            <tr>
+                <td>Enter USN to:
+                </td>
+                <td>1DS20CS&nbsp;&nbsp;<input type="text" name="usn"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>5rd Semester</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter USN from:
+                </td>
+                <td>1DS19EE&nbsp;&nbsp;<input type="text" name="usn5"></td>
+            <tr>
+                <td>Enter USN to:
+                </td>
+                <td>1DS19EE&nbsp;&nbsp;<input type="text" name="usn"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>Pattern</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter 1 or 2: </td>
+                <td>&nbsp;&nbsp;<input type="text" name="choice"></td>
+            </tr>
+
+            <tr>
+               <td> <input type="submit" value="Allot" class="allot"></td>
+            </tr>
+        </table>
+        
+        </div>
+        
+        <div class="child">
+        <center>
+        <img src="https://drive.google.com/uc?export=view&id=15iKfWxDKT9NFjB-Pz9Sqyav0-eJy9DIg" alt="" id="pic3" height="250px" width="250px"><figcaption>Pattern-1</figcaption>
+        <img src="https://drive.google.com/uc?export=view&id=15cQSaB3Kt0KzDPNIS9ygVLmgAlvfcC8-" alt="" id="pic3" height="250px" width="250px"><figcaption>Pattern-2</figcaption> 
+        
+        </center>
+        </div>
+       
+        <style>
+        .child {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+
+        figure {
+          border: 1px #cccccc solid;
+          padding: 4px;
+          margin: auto;
+        }
+        
+        figcaption {
+          
+          color: black;
+          font-style: italic;
+          
+          text-align: center;
+        }
+        </style>
+        
+        
+        
+        
+    </form>
+    
+    <center>
+<div >  
+    <button class="button"><a href="StudentReg.jsp">Back</a></button>
+</div>
+</center>
+    
+    
+</div>
+
+
+
+</html>

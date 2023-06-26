@@ -1,0 +1,84 @@
+/* /* .pattern1{
+border: 2px solid red;
+
+display: inline;
+height: 20rem;
+width: 20rem;
+margin-left: 70p;
+margin-top: 20px%;
+} */
+
+
+.form{
+    width: 90%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  padding: 10px 10px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor:pointer;
+  transition:transform 0.5s ;
+}
+.allot{
+    background: rgb(10, 14, 15);
+    color: rgb(250, 250, 250);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.demo{
+    width: 90%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  padding: 10px 10px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor:pointer;
+  transition:transform 0.5s ;
+}
+.pattern1{
+    border: 2px solid rgb(206, 33, 33);
+    display: flex;
+    height: 15rem;
+    width: 15rem;
+    margin-top: 0px;
+    margin-left: 60px;
+    } 
+ .pattern2{
+border: 2px solid black;
+display: flex;
+height: 15rem;
+width: 15rem;
+margin-top: 0px;
+margin-left: 30px;
+} 
+
+#table{
+    font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  
+}
+
+#table td,tr{
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+
+
+.button {
+  background-color: black ;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
